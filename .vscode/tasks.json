@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build program",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "src/Main.cpp", "-I", "include/", "-o", "Main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
